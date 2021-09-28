@@ -8,7 +8,4 @@ function viewingArray(arr) {
   console.log(arrayLength);
 }
 
-// let example = [1, 2, 4];
-// viewingArray(example);
-
 module.exports = viewingArray;

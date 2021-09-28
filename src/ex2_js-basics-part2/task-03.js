@@ -30,6 +30,4 @@ function evenUnevenNumbers(arr) {
   return resultArray;
 }
 
-// console.log(evenUnevenNumbers([1, 2, null]));
-
 module.exports = evenUnevenNumbers;

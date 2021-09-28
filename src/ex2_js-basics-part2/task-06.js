@@ -39,7 +39,4 @@ function checkPrimeNumber(argNumber) {
   return ('Данные неверны');
 }
 
-// let example = 11;
-// checkPrimeNumber (example);
-
 module.exports = checkPrimeNumber;

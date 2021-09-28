@@ -10,7 +10,4 @@ function maxPositiveNumberOfArray(arr) {
   return maxPositiveNumber;
 }
 
-// let example = [1, 4, 3];
-// maxPositiveNumberOfArray(example);
-
 module.exports = maxPositiveNumberOfArray;

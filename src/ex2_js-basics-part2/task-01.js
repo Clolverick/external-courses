@@ -20,6 +20,4 @@ function outputDataType(val) {
   return dataType;
 }
 
-// console.log(outputDataType());
-
 module.exports = outputDataType;
