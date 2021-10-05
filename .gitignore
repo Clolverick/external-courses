@@ -1,8 +1,0 @@
-node_modules
-.vscode
-.DS_Store
-Thumbs.db
-*.log*
-.idea
-.eslintcache
-package-lock.json
