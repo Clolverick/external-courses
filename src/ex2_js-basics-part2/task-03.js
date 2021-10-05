@@ -1,32 +1,24 @@
 function evenUnevenNumbers(arr) {
-  const evenArray = [];
-  const unevenArray = [];
-  const zeroArray = [];
   const resultArray = [0, 0, 0];
-  const arrayLength = (arr.length);
 
-  for (let i = 0; i < arrayLength; i += 1) {
+  for (let i = 0; i < arr.length; i += 1) {
     if (arr[i] !== null) {
-      if (arr[i] !== null) {
-        if (arr[i] === 0) {
-          zeroArray.push(0);
-        } else if (arr[i] % 2) {
-          unevenArray.push(arr[i]);
-        } else {
-          evenArray.push(arr[i]);
-        }
+      if (arr[i] === 0) {
+        resultArray[2] += 1;
+      } else if (arr[i] % 2) {
+        resultArray[1] += 1;
+      } else {
+        resultArray[0] += 1;
       }
     }
   }
 
-  // console.log('четных: ', evenArray.length);
-  resultArray[0] = evenArray.length;
-  // console.log('нечетных: ', unevenArray.length);
-  resultArray[1] = unevenArray.length;
-  if (zeroArray.length !== 0) {
-    // console.log('нуль: ', zeroArray.length);
-    resultArray[2] = zeroArray.length;
+  console.log('четных: ', resultArray[0]);
+  console.log('нечетных: ', resultArray[1]);
+  if (resultArray[2] !== 0) {
+    console.log('нуль: ', resultArray[2]);
   }
+
   return resultArray;
 }
 
