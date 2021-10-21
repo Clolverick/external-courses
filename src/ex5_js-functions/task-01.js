@@ -1,4 +1,4 @@
-function Calculator() {
+function сalculator() {
   let result = 0;
 
   function add(summand = 0) {
@@ -39,7 +39,4 @@ function Calculator() {
   };
 }
 
-// eslint-disable-next-line no-unused-vars
-const calculator = Calculator();
-
-module.export = Calculator();
+module.export = сalculator();
