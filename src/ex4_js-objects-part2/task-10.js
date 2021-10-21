@@ -1,5 +1,5 @@
-function flipAString(str) {
+function getReverseString(str) {
   return str.split('').reverse().join('');
 }
 
-module.exports = flipAString;
+module.exports = getReverseString;

@@ -1,5 +1,5 @@
-function returnRandomInt100() {
+function getRandomInt100() {
   return Math.floor(Math.random() * 101);
 }
 
-module.exports = returnRandomInt100;
+module.exports = getRandomInt100;
