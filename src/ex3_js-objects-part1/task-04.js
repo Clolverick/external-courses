@@ -1,10 +1,12 @@
 function checkAndAddProperty(key, obj) {
-  if (!(obj.hasOwnProperty(key))) {
-    // eslint-disable-next-line no-param-reassign
-    obj[key] = 'new';
+  // eslint-disable-next-line prefer-object-spread
+  const copyObj = Object.assign({}, obj);
+
+  if (!(copyObj.hasOwnProperty(key))) {
+    copyObj[key] = 'new';
   }
 
-  return obj;
+  return copyObj;
 }
 
 module.exports = checkAndAddProperty;
