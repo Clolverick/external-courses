@@ -1,0 +1,37 @@
+body {
+    padding: 10px;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .header {
+    background: lightblue;
+    padding: 1rem;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  
+  .left {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  
+  .partOfLeft {
+    background: white;
+    border: 1rem solid lightgreen;
+    padding: 1rem;
+  }
+  
+  .right {
+    background: pink;
+    padding: 1rem;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  
