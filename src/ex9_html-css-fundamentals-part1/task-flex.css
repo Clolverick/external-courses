@@ -1,0 +1,33 @@
+body {
+    padding: 10px;
+  }
+  
+  .header {
+    background: lightblue;
+    display: flex;
+    padding: 1rem;
+  }
+  
+  .body {
+    flex-direction: row;
+  }
+  
+  .left {
+    flex-direction: column;
+    flex-grow: 1;
+    background: lightgreen;
+    float: left;
+    padding: 1rem;
+  }
+  .article {
+    background: white;
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+  }
+  
+  .right {
+    background: pink;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
