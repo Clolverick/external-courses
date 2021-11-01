@@ -7,7 +7,7 @@ body {
   }
   
   .header {
-    background: rgb(171, 213, 228);
+    background: lightblue;
     padding: 1rem;
     grid-column-start: 1;
     grid-column-end: 5;
@@ -22,12 +22,12 @@ body {
   
   .partOfLeft {
     background: white;
-    border: 1rem solid rgb(139, 231, 139);
+    border: 1rem solid lightgreen;
     padding: 1rem;
   }
   
   .right {
-    background: rgb(252, 191, 201);
+    background: pink;
     padding: 1rem;
     grid-column-start: 4;
     grid-column-end: 5;
