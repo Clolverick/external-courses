@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.stylePage {
+    justify-content: center;
+}
+
+div {
+    margin: 10px;
+}
+
+#aboutyou {
+    height: 100px;
+    width: 200px;
+}
+
+#ourtitle {
+    height: 150px;
+    width: 200px;
+}
