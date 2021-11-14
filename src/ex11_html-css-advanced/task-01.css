@@ -1,0 +1,82 @@
+@keyframes rotate {
+	to { transform: rotate(360deg); }
+}
+
+body { 
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+
+/* LOADER */
+
+.loader {
+	width: 100px; 
+    height: 100px; 
+    margin: -20px 0 20px 0;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 #f7ebc5;
+    animation: rotate 2s infinite linear;
+}
+
+/* BALL */
+
+.blockForBall {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+    position: relative;
+    left: -225px;
+}
+
+.ball_animation {
+	display: flex;
+	justify-content: center;
+    
+}
+
+.block {
+	width: 50px;
+	height: 500px;
+	margin-left: 400px;
+	background-color: #8f3f3f;
+}
+
+.ball {
+	align-self: center;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	animation: bounce 2s infinite ease-in-out;
+	background-color: #474645;
+}
+
+@keyframes bounce {
+	0% {transform: translate(0, 0);}
+	50% {transform: translate(400px, 0);}
+	100% {transform: translate(0, 0);}
+}
+
+/* ENDLESS ANIMATION */
+
+.endlessAnimation{
+    border-radius: 50%;
+    margin: 5rem;
+    width: 5rem;
+    height: 5rem;
+    background: radial-gradient(#7e9679, #caccb0, #968a7e);
+    animation: infcomplanim 10s infinite linear;
+    position: relative;
+    left: -100px;
+}
+
+@keyframes infcomplanim {
+	0% {border-radius: 50%;}
+	15% {border-radius: 0;}
+	30% {background-image: radial-gradient(#7e9679, #caccb0, #968a7e);}
+	45% {width: 100px; height: 100px;}
+	60% {transform: rotate(-720deg);}
+	75% {background-image: radial-gradient(#4f6b49, #cdcfab, #685747);}
+	100% {border-radius: 50%}
+}
