@@ -1,0 +1,104 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    background-color: #0067a3;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0px;
+}
+
+.labelLogo {
+    color: white;
+    font-size: 26px;
+    font-family: Arial;
+    margin-right: 900px;
+    position: absolute;
+    width: 331px;
+    height: 26px;
+    left: 53px;
+    top: 15px;
+    
+}
+
+.createNewList {
+    background-color: #FFFFFF;
+    width: 181px;
+    height: 33px;
+    border-radius: 5px;
+    font-size: 18px;
+    position: relative;
+    left: 600px;
+}
+
+.addingPlus {
+    margin: 1px;
+}
+
+.newList {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.userAvatar {
+    border-radius: 50%;
+    height: 5vh;
+    width: 5vh;
+    margin-right: 1vh;
+}
+
+.vector {
+    margin-right: 10px;
+}
+
+.content {
+    background-color: #0079bf;
+    height: 603px;
+    margin-bottom: 12px;
+}
+
+.footer {
+    background-color: #0067a3;
+    height: 55px;
+    font-family: Arial;
+}
+
+.tasks {
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 18px;
+    color: white;
+}
+
+.boardname {
+    color: white;
+    margin-left: 700px;
+    font-size: 18px;
+}
+
+#username {
+    margin-left: 10px;
+}
+
+#year {
+    margin-left: 5px;
+}
