@@ -1,98 +1,126 @@
 body {
-    background-color: white;
+    background-color: #0079bf;
     margin: 0;
 }
 
-div {
-    display: flex;
-    align-items: center;
-}
+/* HEADER */
 
-.header {
-    background-color: #0067a3;
+header {
+    background: #0067a3;
     height: 55px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo {
-    margin: 0px;
+div.together {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 5px;
 }
 
-.labelLogo {
+.labelText {
     color: white;
     font-size: 26px;
     font-family: Arial;
-    margin-right: 900px;
-    position: absolute;
-    width: 331px;
-    height: 26px;
-    left: 53px;
-    top: 15px;
-    
+    margin: 5px;
+    height: 30px;
 }
 
-.createNewList {
-    background-color: #FFFFFF;
-    width: 181px;
+div.createNewList {
+    background-color: #ffffff;
+    padding-right: 20px;
     height: 33px;
     border-radius: 5px;
-    font-size: 18px;
-    position: relative;
-    left: 600px;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
 }
 
-.addingPlus {
-    margin: 1px;
+button.createNewList {
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    border: none;
+    background-color: Transparent;
 }
 
-.newList {
+img.createNewList {
+    width: 20px;
+}
+
+label.createNewList {
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 21px;
     margin: 0px;
-}
-
-.avatar {
-    border-radius: 50%;
 }
 
 .userAvatar {
     border-radius: 50%;
-    height: 5vh;
-    width: 5vh;
-    margin-right: 1vh;
+    height: 38px;
+    width: 38px;
 }
 
-.vector {
-    margin-right: 10px;
+button.vector {
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    border: none;
+    background-color: Transparent;
 }
+
+/* CONTENT */
 
 .content {
     background-color: #0079bf;
-    height: 603px;
-    margin-bottom: 12px;
+    overflow: auto;
 }
 
-.footer {
-    background-color: #0067a3;
+/* FOOTER */
+
+footer {
+    background: #0067a3;
     height: 55px;
-    font-family: Arial;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+div.footerTogether {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 5px;
+    margin-left: 50px;
 }
 
 .tasks {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-right: 10px;
     font-size: 18px;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .boardname {
     color: white;
-    margin-left: 700px;
+    margin-right: 50px;
     font-size: 18px;
+    display: flex;
+    align-items: center;
 }
 
 #username {
