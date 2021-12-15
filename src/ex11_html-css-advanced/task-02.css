@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    background-color: #dddddd;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+div.flexform {
+    display: flex;
+    flex-flow: column;
+}
+
+div.floatform {
+    float: left;
+}
+
+input {
+    display: flex;
+}
+
+.inputhalfwidth {
+    width: 200px;
+}
+
+.inputwidth {
+    width: 400px;
+}
+
+
+
+/* LABEL */
+
+label {
+    display: flex;
+    position: relative;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #985478;
+    opacity: 0;
+}
+
+input:focus ~ label {
+    color: #000000;
+    opacity: 0;
+}
+
+input:valid ~ label {
+    animation: labelanimation 1s forwards;
+}
+
+.forlabel {
+    top: 0px;
+}
+
+@keyframes labelanimation {
+    to {
+        top: -35px;
+        opacity: 0.5;
+    }
+}
+
+/* DESCRIPTION */
+
+textarea {
+    height: 200px;
+    max-height: 200px;
+    min-height: 200px;
+    resize: none;
+}
+
+.description {
+    top: -150px;
+}
+
+textarea:focus ~ label {
+    color: #000000;
+    opacity: 0;
+}
+
+textarea:valid ~ label {
+    animation: descriptionanimation 1s forwards;
+}
+
+@keyframes descriptionanimation {
+    to {
+        top: -220px;
+        opacity: 0.5;
+    }
+}
