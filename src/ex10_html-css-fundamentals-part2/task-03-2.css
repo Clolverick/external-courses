@@ -1,0 +1,12 @@
+body {
+    font-family: 'Franklin Gothic Medium';
+}
+
+.mainContainer {
+    display: flex;
+    margin: 2rem;
+}
+
+div {
+    margin: 10px;
+}
