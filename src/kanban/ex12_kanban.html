@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Kanban</title>
+    <link rel="stylesheet" href="ex12_kanban.css">
+    <script src="ex12_kanban.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="together">
+            <div><img src="logo.png" alt="Logotype"></div>
+            <label class="labelText">Awesome Kanban Board</label>
+        </div>
+        <div class="together">
+            <div class="createNewList">
+                <button class="createNewList"><img src="plus.png" alt="кнопка" class="createNewList"></button>
+                <label class="createNewList">Create new list</label>
+            </div>
+            <div>
+                <img class="userAvatar" src="avatarpic.png" alt="">
+            </div>
+            <img class="" id="arrow-down" src="vector.png" alt="кнопка"/>
+            <div class="flexboxtype menu" id="menu"></div>
+        </div>
+    </header>
+    
+    <div class="content"></div>
+    
+    <footer>
+        <div class="footerTogether">
+            <div class="tasks">
+                <label>Active tasks: </label>
+                <div id="activecount">&lt;N&gt;</div>
+            </div>
+            <div class="tasks">
+                <label>Finished tasks: </label>
+                <div id="finishedcount">&lt;M&gt;</div>
+            </div>
+        </div>
+        <div class="boardname">
+            <label>Kanban board by</label>
+            <div id="username">&lt;NAME&gt;</div>,
+            <div id="year">&lt;YEAR&gt;</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
