@@ -14,6 +14,7 @@ module.exports = {
     'import/prefer-default-export': 0,
     'import/extensions': 0,
     'max-classes-per-file': 0,
+    'linebreak-style': 0,
     complexity: [0, 11],
     'no-prototype-builtins': 0,
     'prefer-destructuring': 0,
